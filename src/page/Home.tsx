@@ -19,8 +19,8 @@ import {
   InstructorsSkeleton,
   BenefitSkeleton,
   TestimonialsSectionSkeleton,
-  FAQSectionSkeleton
-} from "../components/skeletons/sections/index";
+  FAQSectionSkeleton,
+} from "../components/skeletons/index";
 
 function App() {
   const [scrollTop, setScrollTop] = useState(false);
@@ -48,31 +48,31 @@ function App() {
         <SectionWrapper skeleton={<HeroSkeleton />}>
           <Hero />
         </SectionWrapper>
-        
+
         <SectionWrapper skeleton={<CoursesSectionSkeleton />}>
           <Courses />
         </SectionWrapper>
-        
+
         <SectionWrapper skeleton={<MissionSectionSkeleton />}>
           <Mission />
         </SectionWrapper>
-        
+
         <SectionWrapper skeleton={<InstructorsSkeleton />}>
           <Instructors />
         </SectionWrapper>
-        
+
         <SectionWrapper skeleton={<BenefitSkeleton />}>
           <Beneﬁt />
         </SectionWrapper>
-        
+
         <SectionWrapper skeleton={<TestimonialsSectionSkeleton />}>
           <Testimonial />
         </SectionWrapper>
-        
+
         <SectionWrapper skeleton={<FAQSectionSkeleton />}>
           <Faq />
         </SectionWrapper>
-        
+
         <FooterBanner />
       </main>
       <Footer />

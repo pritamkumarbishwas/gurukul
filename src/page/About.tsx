@@ -20,9 +20,7 @@ import {
   GurukulWorksSectionSkeleton,
   GurukulHelpSectionSkeleton,
   SmartTradingSectionSkeleton,
-  
-} from "../components/skeletons/sections/index";
-
+} from "../components/skeletons/index";
 
 function About() {
   const [scrollTop, setScrollTop] = useState(false);
